@@ -1,22 +1,23 @@
 #  News Headline Scraper – Python
 
-##  About the Project
-This is a simple **web scraping tool** that collects the top headlines from [BBC News](https://www.bbc.com/news) using Python.
+##  Project Overview
+This is a simple **web scraping tool** built using Python. It fetches the latest news headlines from the **BBC News website** and saves them into a local text file.
 
-It was created as part of **Task 3** for the BroskiesHub Python Internship.
+This project is developed as part of **Task 3** for the **BroskiesHub Python Internship**.
 
-##  Tools Used
+---
+
+## ⚙ Technologies Used
 - Python 3
-- `requests` – to fetch HTML
-- `BeautifulSoup` – to parse news headlines
+- `requests` – for sending HTTP requests
+- `BeautifulSoup` (from `bs4`) – for parsing HTML
+- File Handling – to store headlines in a `.txt` file
 
-##  Files Included
-- `scraper.py` – Main script
-- `headlines.txt` – Output file with scraped headlines
-- `README.md` – Project description
+---
 
 ## ▶ How to Run
 
+1. Make sure Python is installed.
+2. Install dependencies (once):
 ```bash
 pip install requests beautifulsoup4
-python scraper.py
